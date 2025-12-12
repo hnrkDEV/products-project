@@ -19,8 +19,7 @@ export class BookProduct extends Product {
     this.pages = pages;
   }
   //methods
-  public displayInfo(): void {
-    super.displayInfo();
-    console.log(`BookProduct [Author: ${this.author}, Pages: ${this.pages}]`);
+  public getExtraInfo(): string {
+    return `, Author: ${this.author}, Pages: ${this.pages}`;
   }
 }
