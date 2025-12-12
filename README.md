@@ -18,27 +18,24 @@ The goal of this project is to build an inventory control system where:
 This project was developed as part of an academic assignment focused on **OOP and TypeScript best practices**.
 
 ---
-
+```text
 ## 🧱 Project Structure
 
 src/
 ├── controller/
-│ └── ProductController.ts
-│
+│   └── ProductController.ts
 ├── models/
-│ ├── Product.ts
-│ ├── FoodProduct.ts
-│ ├── ElectronicProduct.ts
-│ ├── ClothingProduct.ts
-│ └── BookProduct.ts
-│
+│   ├── Product.ts
+│   ├── FoodProduct.ts
+│   ├── ElectronicProduct.ts
+│   ├── ClothingProduct.ts
+│   └── BookProduct.ts
 ├── repository/
-│ └── ProductInterface.ts
-│
+│   └── ProductInterface.ts
 ├── utils/
-│ └── Colors.ts
-│
-├── Main.ts
+│   └── Colors.ts
+└── Main.ts
+```
 
 ---
 
@@ -97,3 +94,39 @@ src/
 - **BookProduct**
   - Author
   - Number of pages
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/products-project.git
+cd products-project
+```
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run the project
+```bash
+npm run start
+```
+🛠️ Technologies Used
+
+- TypeScript
+
+- Node.js
+
+- readline-sync
+
+- ts-node
+
+- Object-Oriented Programming (OOP)
+
+### 📖 Example Output
+```bash
+--- View Products ---
+Product [ID: 1, Name: Apple, Price: $29.00, Quantity: 39, 
+Expiration: Wed Dec 19 2001, Weight: 30g, Perishable: Yes]
+```
+
+📜 License
+- This project is for educational purposes only.
