@@ -20,10 +20,7 @@ export class ElectronicProduct extends Product {
   }
 
   //methods
-  public displayInfo(): void {
-    super.displayInfo();
-    console.log(
-      `ElectronicProduct [Voltage: ${this.voltage}, Warranty: ${this.warrantyMonths} months]`
-    );
+  public getExtraInfo(): string {
+    return `, Voltage: ${this.voltage}, Warranty: ${this.warrantyMonths} months`;
   }
 }

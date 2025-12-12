@@ -20,8 +20,7 @@ export class ClothingProduct extends Product {
   }
 
   //methods
-  public displayInfo(): void {
-    super.displayInfo();
-    console.log(`ClothingProduct [Size: ${this.size}, Color: ${this.color}]`);
+  public getExtraInfo(): string {
+    return `, Size: ${this.size}, Color: ${this.color}`;
   }
 }
